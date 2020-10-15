@@ -1,7 +1,10 @@
 rm (list=ls())
 setwd ("/Users/fabianyii/Desktop/EyeQue Study/pvt/Plots")
 library("readxl") #attach readxl package
-eyeque <- data.frame(read_excel("/Users/fabianyii/Desktop/EyeQue Study/pvt/Data/eyeque.xlsx"))
+eyeque <- data.frame(read_excel("/Users/fabianyii/Desktop/EyeQue Study/pvt/Data/eyeque.xlsx"))  # Fabian
+                                        # Paul
+
+"C:/Users/paul_/Google Drive/R.Stuff/pvt/Data/eyeque.xlsx"
 
 #define Mfunction
 mfunction <- function (s, c) {round(
